@@ -2,6 +2,7 @@
 ### Build and run docker container with Flask RESTful API
 
 Clone repo `git clone https://github.com/LeeDongJin93/restful-api-python-flask.git'
+
 Chande directory `cd restful-api-python-flask`
 
 Build image `docker build -t restful-api .` 
