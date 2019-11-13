@@ -15,4 +15,38 @@ Cloud Build     `gcloud builds submit --tag gcr.io/projectID/restful-api`
 
 Cloud Run에 container image deploy     `gcloud beta run deploy --image gcr.io/projectID/restful-api`
 
-URL:https://restful-api-mwaaecp4bq-an.a.run.app/todo/api/v1.0/tasks
+GET URL:https://restful-api-mwaaecp4bq-an.a.run.app/todo/api/v1.0/tasks
+
+#curl
+
+##Create a new user
+
+```
+POST /todo/api/v1.0/tasks
+```
+
+### Parameters
+
+|Name|Type|Description|
+|----|----|-----------|
+|source_id|int|Authentication source ID. Remain default means a local user|
+|login_name|string|Authentication source login name, **required** for non-local user|
+|username|string|**Required** Unique user name|
+|email|string|**Required** Unique email address of user|
+|password|string|Default password for user, **required** for local user|
+|send_notify|bool|Send a notification email for this creation, require mailer service enabled|
+```
+
+## Delete a user
+
+
+
+```
+DELETE /todo/api/v1.0/tasks
+```
+
+## Update a user
+
+```
+PUT /todo/api/v1.0/tasks
+```
