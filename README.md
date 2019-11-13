@@ -35,7 +35,7 @@ POST /todo/api/v1.0/tasks
 |email|string|**Required** Unique email address of user|
 |password|string|Default password for user, **required** for local user|
 |send_notify|bool|Send a notification email for this creation, require mailer service enabled|
-```
+
 
 ### Delete a user
 
