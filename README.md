@@ -29,12 +29,9 @@ POST /todo/api/v1.0/tasks
 
 |Name|Type|Description|
 |----|----|-----------|
-|source_id|int|Authentication source ID. Remain default means a local user|
-|login_name|string|Authentication source login name, **required** for non-local user|
-|username|string|**Required** Unique user name|
-|email|string|**Required** Unique email address of user|
-|password|string|Default password for user, **required** for local user|
-|send_notify|bool|Send a notification email for this creation, require mailer service enabled|
+|id|int|Authentication source ID. Remain default means a local user|
+|title|string|Authentication source title.|
+|description|string|
 
 
 ### Delete a user
