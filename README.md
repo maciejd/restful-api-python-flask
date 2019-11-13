@@ -36,7 +36,7 @@ POST /todo/api/v1.0/tasks
 
 ##### Example
 
-postman에서 Body를 누른후 
+postman에서 Body를 누른후 아래입력
 ```json
 {
 	"title": "kjlksjdfl",
