@@ -10,3 +10,9 @@ Build image `docker build -t restful-api .`
 Run container in detached mode and publish port 5000 `docker run -d -p 5000:5000 restful-api`
   
 API should be accessible on port 5000 `curl -i localhost:5000/todo/api/v1.0/tasks`
+
+Cloud Build     'gcloud builds submit --tag gcr.io/projectID/restful-api
+
+Cloud Run에 container image deploy     'gcloud beta run deploy --image gcr.io/projectID/restful-api
+
+URL:https://restful-api-mwaaecp4bq-an.a.run.app/todo/api/v1.0/tasks
