@@ -31,7 +31,7 @@ POST /todo/api/v1.0/tasks
 |----|----|-----------|
 |id|int|Authentication source ID. Remain default means a local user|
 |title|string|Authentication source title.|
-|description|string|
+|description|string|description|
 
 
 ##### Example
