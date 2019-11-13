@@ -17,15 +17,15 @@ Cloud Run에 container image deploy     `gcloud beta run deploy --image gcr.io/p
 
 GET URL:https://restful-api-mwaaecp4bq-an.a.run.app/todo/api/v1.0/tasks
 
-#curl
+## curl
 
-##Create a new user
+### Create a new user
 
 ```
 POST /todo/api/v1.0/tasks
 ```
 
-### Parameters
+#### Parameters
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -37,7 +37,7 @@ POST /todo/api/v1.0/tasks
 |send_notify|bool|Send a notification email for this creation, require mailer service enabled|
 ```
 
-## Delete a user
+### Delete a user
 
 
 
@@ -45,7 +45,7 @@ POST /todo/api/v1.0/tasks
 DELETE /todo/api/v1.0/tasks
 ```
 
-## Update a user
+### Update a user
 
 ```
 PUT /todo/api/v1.0/tasks
