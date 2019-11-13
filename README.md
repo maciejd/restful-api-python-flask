@@ -39,8 +39,6 @@ POST /todo/api/v1.0/tasks
 
 ### Delete a user
 
-
-
 ```
 DELETE /todo/api/v1.0/tasks
 ```
