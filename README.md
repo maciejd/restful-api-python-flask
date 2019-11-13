@@ -34,6 +34,15 @@ POST /todo/api/v1.0/tasks
 |description|string|
 
 
+##### Example
+
+```json
+{
+	"title": "kjlksjdfl",
+	"description": "descriptttttt"
+}
+```
+
 ### Delete a user
 
 ```
