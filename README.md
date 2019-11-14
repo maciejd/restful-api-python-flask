@@ -13,7 +13,7 @@ API should be accessible on port 8080 `curl -i localhost:8080/todo/api/v1.0/task
 
 Cloud Build     `gcloud builds submit --tag gcr.io/projectID/restful-api`
 
-Cloud Run에 container image deploy     `gcloud beta run deploy --image gcr.io/projectID/restful-api`
+Deploy container image to cloud run     `gcloud beta run deploy --image gcr.io/projectID/restful-api`
 
 GET URL:https://restful-api-mwaaecp4bq-an.a.run.app/todo/api/v1.0/tasks
 
@@ -36,7 +36,8 @@ POST /todo/api/v1.0/tasks
 
 ##### Example
 
-postman에서 Body를 누른후 아래입력
+
+Press body in Postman and type below
 ```json
 {
 	"title": "kjlksjdfl",
